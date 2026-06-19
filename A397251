@@ -70,7 +70,7 @@ if __name__ == "__main__":
     xyzt_quadruples = find_xyzt_quadruples(start, end)
 
     for quadruple in xyzt_quadruples:
-        print(f"$({quadruple[0]}, {quadruple[1]}, {quadruple[2]}, {quadruple[3]})$")
+        print(f"({quadruple[0]}, {quadruple[1]}, {quadruple[2]}, {quadruple[3]})")
 
     print(f"Number of quadruples found: {len(xyzt_quadruples)}")
 
